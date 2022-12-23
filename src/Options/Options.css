@@ -1,0 +1,32 @@
+.options {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    padding-left: 5%;
+    width: 100%;
+    background: #F2EEFF;
+    color: #7B62C3;
+}
+
+.options .option {
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    transition-duration: 0.7s;
+}
+
+.options .option:hover {
+    background: #E7DEFE;
+    transition-duration: 0.7s;
+}
+
+.options .option a {
+    text-decoration: none;
+    color: #7B62C3;
+}
+
+.options .option a:active {
+    color: #7B62C3;
+}

@@ -1,0 +1,56 @@
+.book_in_cart {
+    border: 1px solid black;
+}
+
+.book_in_cart .bc_img {
+    width: 100%;
+}
+
+.book_in_cart .bc_img img {
+    width: 100%;
+}
+
+.book_in_cart .bc_count {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    width: 80%;
+    background: #EAE5FC;
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+
+.book_in_cart .bc_info {
+    margin-top: 1.5vh;
+    font-size: 2vh;
+}
+
+.book_in_cart .bc_info div {
+    margin-top: 0.5vh;
+    user-select: none;
+}
+
+.book_in_cart .bc_info .price {
+    font-weight: 650;
+}
+
+.book_in_cart .bc_info .author {
+    color: #ADADAD;
+}
+
+.book_in_cart .bc_count span {
+    padding: 0.7vh;
+    width: 33%;
+    text-align: center;
+    user-select: none;
+}
+
+.book_in_cart .bc_count .bc_dec, .book_in_cart .bc_count .bc_inc {
+    transition-duration: 0.3s;
+    color: #7B62C3;
+}
+
+.book_in_cart .bc_count .bc_dec:hover, .book_in_cart .bc_count .bc_inc:hover {
+    background: #C4B4F0;
+    transition-duration: 0.3s;
+}

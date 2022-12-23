@@ -1,0 +1,56 @@
+.userpage {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5vh;
+    margin-left: 10%;
+}
+
+.userpage .buttons div a .log_out, .userpage .buttons div a .add_book {
+    display: inline-block;
+    margin-top: 4vh;
+    color: white;
+    transition-duration: 0.3s;
+    padding: 1vh;
+    border-radius: 1vh;
+    user-select: none;
+}
+
+.userpage .buttons div a .log_out {
+    background: #9D83E9;
+}
+
+.userpage .buttons div a .log_out:hover {
+    background: #7B62C3;
+}
+
+.userpage .buttons div a .log_out:hover, .userpage .buttons div a .add_book:hover {
+    transition-duration: 0.3s;
+}
+
+.userpage .buttons div a .add_book {
+    background: #C4B4F0;
+}
+
+.userpage .buttons div a .add_book:hover {
+    background: #9D83E9;
+}
+
+.userpage .buttons div a {
+    text-decoration: none;
+}
+
+.userpage .user_fullname {
+    font-size: 3.5vh;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+.userpage .admin {
+    color: #7B62C3;
+    font-weight: none;
+    font-size: 2vh;
+}
+
+.userpage .buttons {
+    display: block;
+}

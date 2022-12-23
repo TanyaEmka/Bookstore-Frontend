@@ -1,0 +1,9 @@
+.authors {
+    margin-top: 5vh;
+}
+
+.authors p {
+    margin-left: 10%;
+    font-size: 2vh;
+    font-weight: bold;
+}

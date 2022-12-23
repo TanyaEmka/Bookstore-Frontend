@@ -1,0 +1,62 @@
+.registration {
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-left: 10%;
+    width: 80%;
+    display: block;
+}
+
+.registration .reg_input {
+    box-sizing: border-box;
+    margin-top: 1.5vh;
+    margin-bottom: 3.5vh;
+    width: 30%;
+}
+
+.registration .reg_input input {
+    box-sizing: border-box;
+    height: 5vh;
+    width: 100%;
+    border-radius: 0.5vh;
+    font-size: 2vh;
+    padding: 1vh;
+    padding-left: 2vh;
+    border: 0.1vh solid gray;
+}
+
+.registration .title {
+    font-size: 2.5vh;
+}
+
+.registration .main_title {
+    font-size: 4vh;
+    margin-bottom: 4vh;
+}
+
+.registration a .reg_button {
+    color: white;
+    background: #9D83E9;
+    margin: 0 auto;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    user-select: none;
+    transition-duration: 0.3s;
+}
+
+.registration .reg_button:hover {
+    background: #7B62C3;
+    transition-duration: 0.3s;
+}
+
+.registration a {
+    text-decoration: none;
+    color: white;
+}

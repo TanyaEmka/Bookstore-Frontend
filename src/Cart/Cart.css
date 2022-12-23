@@ -1,0 +1,68 @@
+.cart_page {
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5vh;
+}
+
+.cart_page .books_in_cart {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 3vh;
+}
+
+.cart_page .books_in_cart .book_in_cart {
+    box-sizing: border-box;
+    margin-right: 5%;
+    width: 15%;
+    border: none;
+    padding: 2vh;
+    margin-top: 2vh;
+}
+
+.cart_page .books_in_cart .book_in_cart .delete_button {
+    display: inline-block;
+    padding: 1vh;
+    border-radius: 1vh;
+    border: 0.3vh solid #997CEC;
+    color: #997CEC;
+    user-select: none;
+    transition-duration: 0.3s;
+}
+
+.cart_page .books_in_cart .book_in_cart .delete_button:hover {
+    background: #997CEC;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.cart_page .cart_title {
+    font-size: 4vh;
+    user-select: none;
+}
+
+.cart_page .paid_button {
+    color: white;
+    background: #9D83E9;
+    margin: 0 auto;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    user-select: none;
+    transition-duration: 0.3s;
+}
+
+.cart_page .paid_button:hover {
+    background: #7B62C3;
+    transition-duration: 0.3s;
+}

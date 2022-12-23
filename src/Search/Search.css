@@ -1,0 +1,71 @@
+.search {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    margin-left: 10%;
+    margin-top: 5vh;
+    align-items: center;
+    align-content: center;
+}
+
+.search .text {
+    margin-left: 2vh;
+    margin-right: 5vh;
+}
+
+.search .min_price, .search .max_price {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    width: 5%;
+}
+
+.search .tire {
+    margin-left: 1.5vh;
+    font-weight: bold;
+    color: #7B62C3;
+}
+
+.search .search_img {
+    width: 4vh;
+}
+
+.search .filter_img {
+    width: 3vh;
+}
+
+.search .filter_img img:hover {
+    filter: contrast(30%);; 
+    transition-duration: 0.3s;
+}
+
+.search .filter_img img {
+    transition-duration: 0.3s;
+}
+
+.search .search_img img, .search .filter_img img {
+    width: 100%;
+}
+
+.search .text {
+    width: 50%;
+}
+
+.search .text input, .search .min_price input, .search .max_price input {
+    width: 100%;
+    font-size: 2vh;
+    padding-left: 1vh;
+    border-radius: 1.5vh;
+    border: 2px solid black;
+}
+
+.search .text input {
+    height: 4vh;
+}
+
+.search .min_price input, .search .max_price input {
+    height: 3vh;
+}
+
+.search .min_price input::-webkit-inner-spin-button, .search .max_price input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

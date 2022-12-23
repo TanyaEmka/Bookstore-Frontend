@@ -1,0 +1,108 @@
+.edit_page {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+}
+
+.edit_page .main_parameters {
+    box-sizing: border-box;
+    display: block;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    width: 60%;
+}
+
+.edit_page .ok {
+    font-size: 2vh;
+    color: green;
+}
+
+.edit_page .wrong_data {
+    font-size: 2vh;
+    color: red;
+}
+
+.edit_page .main_parameters .edit_input {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    margin-top: 3vh;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.edit_page .main_parameters .edit_input .info, .edit_page .main_parameters .edit_input .title {
+    padding: 0.5vh;
+}
+
+.edit_page .main_parameters .edit_input .info {
+    box-sizing: border-box;
+    width: 70%;
+    font-size: 2.5vh;
+}
+
+.edit_page .main_parameters .edit_input .title {
+    box-sizing: border-box;
+    width: 25%;
+    text-align: right;
+    font-size: 2vh;
+    font-size: 2.5vh;
+    background: #EAE5FC;
+    user-select: none;
+}
+
+.edit_page .main_parameters .edit_input {
+    box-sizing: border-box;
+}
+
+.edit_page .main_parameters .edit_input .info input {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 2.5vh;
+    padding: 0.5vh;
+    padding-left: 2vh;
+    border-radius: 0.5vh;
+    min-height: 5vh;
+    outline: 0!important;
+    transition: all 100ms;
+    border: 0.1vh solid hsl(0, 0%, 80%);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-weight: lighter;
+}
+
+.edit_page .header {
+    margin-top: 5vh;
+    font-size: 4vh;
+}
+
+.edit_page .edit_button {
+    font-size: 3vh;
+    font-weight: 200;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    background: #C4B4F0;
+    color: white;
+    display: inline-block;
+    border-radius: 1vh;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    user-select: none;
+    transition-duration: 0.3s;
+}
+
+.edit_page .edit_button:hover {
+    transition-duration: 0.3s;
+    background: #7B62C3;
+}
+
+.auth_error {
+    box-sizing: border-box;
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: 5vh;
+    margin-left: 10%;
+}

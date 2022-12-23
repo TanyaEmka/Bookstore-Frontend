@@ -1,0 +1,81 @@
+.auth_form {
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: block;
+    font-size: 2vh;
+    background: #EAE5FC;
+    border-radius: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.auth_form .username, .auth_form .password {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.auth_form .username input, .auth_form .password input {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 2vh;
+    padding-left: 2vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-radius: 1vh;
+    border: none;
+}
+
+.auth_form .auth_button {
+    color: white;
+    background: #9D83E9;
+    margin: 0 auto;
+    display: flex;
+    width: 50%;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    user-select: none;
+    transition-duration: 0.3s;
+}
+
+.auth_form .auth_button:hover {
+    background: #7B62C3;
+    transition-duration: 0.3s;
+}
+
+.auth_form a {
+    text-decoration: none;
+    color: white;
+}
+
+.auth_form .error {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.auth_form a .reg_title {
+    color: #7B62C3;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+

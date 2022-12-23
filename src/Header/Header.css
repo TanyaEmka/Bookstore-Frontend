@@ -1,0 +1,38 @@
+.head {
+    box-sizing: border-box;
+    background-color: #7B62C3;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    color: #F2EEFF;
+}
+
+.head div {
+    box-sizing: border-box;
+    padding-right: 2.5vh;
+    padding-left: 2.5vh;
+    height: 100%;
+    background: #7B62C3;
+    font-size: 2vh;
+    padding-top: 3vh;
+    transition-duration: 0.7s;
+}
+
+.head .log_in {
+    margin-right: 2.5vh;
+}
+
+.head div:hover {
+    background: #997CEC;
+    transition-duration: 0.7s;
+}
+
+.head div a, .head div a:hover {
+    text-decoration: none;
+    color: #F2EEFF;
+}
